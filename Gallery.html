@@ -3,27 +3,41 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/css/uikit.min.css" />
+    <link href="node_modules/uikit-2.26.4/css/uikit.css" rel="stylesheet" />
     <script src="GalleryJavaScript.js"></script>
+    <link href="node_modules/uikit-2.26.4/css/components/slidenav.css" rel="stylesheet" />
+    <link href="StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
 
     <div class="uk-container uk-container-center uk-margin-top">
         <div class="uk-panel uk-panel-box">
             <h1>Hellow</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-             Eligendi non quis exercitationem culpa nesciunt nihil aut n
-            ostrum explicabo reprehenderit optio amet ab temporibus 
-            asperiores quasi cupiditate. Voluptatum ducimus voluptates 
-            voluptas?</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Eligendi non quis exercitationem culpa nesciunt nihil aut n
+                ostrum explicabo reprehenderit optio amet ab temporibus
+                asperiores quasi cupiditate. Voluptatum ducimus voluptates
+                voluptas?
+            </p>
             <a href="#" class="uk-button uk-button-primary">Buy the universe</a>
             <div class="uk-text-success">This is the sucess text</div>
         </div>
+        <br />
+        <div class="uk-grid">
+            <a class="uk-width-1-3" href="Images/abstract-2100_1280.jpg" data-uk-lightbox="{group:'my-group'}" title="Hi">
+                <img src="Images/abstract-2100_1280.jpg" />
+            </a>
+            <a class="uk-width-1-3" href="Images/architecture-1515475_1280.jpg" data-uk-lightbox="{group:'my-group'}" title="Hi">
+                <img src="Images/architecture-1515475_1280.jpg" />
+            </a>
+            <a class="uk-width-1-3" href="Images/black-84715_1280.jpg" data-uk-lightbox="{group:'my-group'}" title="Hi">
+                <img src="Images/black-84715_1280.jpg" />
+            </a>
+        </div>
     </div>
-
-   
     <script src="node_modules/bootstrap/node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.26.4/js/uikit.min.js"></script>
-    
+    <script src="node_modules/uikit-2.26.4/js/uikit.js"></script>
+    <script src="node_modules/uikit-2.26.4/js/components/lightbox.js"></script>
 </body>
 </html>
